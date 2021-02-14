@@ -1,0 +1,72 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	background-image:url('bg-desktop.svg');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	background-color:hsl(257, 40%, 49%);
+	padding:50px;
+}
+header{
+	margin-bottom:100px;
+}
+.container{
+	display:flex;
+	margin-left:50px;
+	margin-right:50px;
+}
+.image{
+	margin-right:60px;
+}
+.content{
+	color:white;
+	font-family:'Poppins', sans-serif;
+	position:relative;
+	top:60px;
+}
+.content h1{
+	font-weight:600;
+	font-size:40px;
+	margin-bottom:30px;
+}
+.content p{
+	font-weight:400;
+	font-size:14px;
+	margin-bottom:30px;
+}
+span{
+	display:inline-block;
+	background-color:white;
+	color:hsl(257, 40%, 49%);
+	border-radius:25px;
+	padding:15px 60px;
+}
+span:hover{
+	box-shadow:0px 5px 15px 5px hsl(313, 28%, 32%);
+	background-color:hsl(300, 69%, 71%);
+	color:white;
+}
+.fa-ul{
+	color:white;
+	margin-top:80px;
+	display:flex;
+	float:right;
+	margin-right:60px;
+}
+i.fab{
+	border-radius:50%;
+	padding:10px;
+	font-size: 1.6em;
+	width: 1.6em;
+	text-align: center;
+	line-height: 1.6em;
+}
+.fab{
+	margin-right:25px;
+}
+.fab:hover{
+	color:hsl(300, 69%, 71%);
+}

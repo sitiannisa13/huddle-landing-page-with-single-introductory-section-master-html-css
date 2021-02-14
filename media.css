@@ -1,0 +1,57 @@
+@media only screen and (max-width:375px){
+	body{
+		background-image:url('bg-mobile.svg');
+		background-repeat:no-repeat;
+		background-attachment:fixed;
+		padding:10px;
+	}
+	header{
+		margin-bottom:50px;
+	}
+	header img{
+		width:50%;
+		margin-top:20px;
+	}
+	.container{
+		display:flex;
+		flex-direction:column;
+		margin-left:20px;
+		margin-right:20px;
+		text-align:center;
+	}
+	.image img{
+		margin-right:0px;
+		width:123%;
+	}
+	.content{
+		width:310px;
+	}
+	.content h1{
+		font-size:20px;
+		margin-bottom:10px;
+	}
+	.content p{
+		font-size:15px;
+		margin-bottom:30px;
+	}
+	span{
+		padding:13px 70px;
+	}
+	.fa-ul{
+		margin-top:100px;
+		text-align:center;
+		position:relative;
+		right:50px;
+	}
+	i.fab{
+		border-radius:50%;
+		padding:8px;
+		font-size: 0.8em;
+		width: 0.8em;
+		text-align: center;
+		line-height: 0.8em;
+	}
+	.fab{
+		margin-right:15px;
+	}
+}
